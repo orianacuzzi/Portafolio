@@ -1,0 +1,97 @@
+# 📊 Proyecto Final – RappiPlus: De Datos a Decisiones de Negocio
+
+## 📌 Descripción
+
+Este proyecto consiste en un análisis integral del desempeño del servicio **RappiPlus**, con el objetivo de transformar datos de negocio en recomendaciones estratégicas para la toma de decisiones.
+
+A lo largo del proyecto se analizan indicadores clave como ventas, rentabilidad, comportamiento de los usuarios, retención, embudo de conversión (funnel) y resultados de un experimento A/B para evaluar el impacto de cambios en la interfaz del proceso de compra.
+
+---
+
+## 🎯 Objetivos
+
+* Evaluar el desempeño financiero del negocio.
+* Analizar el comportamiento de los usuarios durante el proceso de compra.
+* Medir la retención de clientes.
+* Identificar oportunidades de mejora mediante el análisis del funnel de conversión.
+* Validar el impacto de una nueva interfaz de checkout mediante un experimento A/B.
+* Proponer recomendaciones basadas en evidencia.
+
+---
+
+## 📂 Conjunto de datos
+
+El proyecto utiliza varios datasets relacionados con la operación de RappiPlus, incluyendo información sobre:
+
+* Órdenes realizadas.
+* Catálogo de productos.
+* Campañas de marketing.
+* Eventos de navegación de usuarios.
+* Cohortes de retención.
+* Experimento A/B del checkout.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* SciPy
+* Jupyter Notebook
+
+---
+
+## 📈 Análisis realizado
+
+Durante el proyecto se desarrollaron los siguientes análisis:
+
+* Limpieza y validación de datos.
+* Análisis exploratorio (EDA).
+* Análisis de ventas, costos y rentabilidad.
+* Evaluación del gasto en marketing.
+* Construcción del funnel de conversión.
+* Análisis de retención mediante cohortes.
+* Prueba de hipótesis para un experimento A/B.
+* Interpretación de resultados y recomendaciones de negocio.
+
+---
+
+## 🔍 Principales hallazgos
+
+* El negocio genera ingresos sólidos, aunque la rentabilidad depende significativamente de los costos operativos.
+* El embudo de conversión muestra pérdidas progresivas de usuarios en las primeras etapas del proceso de compra.
+* La retención disminuye conforme transcurre el tiempo, lo que sugiere oportunidades para mejorar el engagement de los clientes.
+* El experimento A/B no encontró diferencias estadísticamente significativas entre la versión actual y la nueva interfaz del checkout (p-value > 0.05).
+
+---
+
+## 💡 Recomendaciones
+
+* Optimizar las estrategias de adquisición y retención de clientes.
+* Reducir la pérdida de usuarios en las primeras etapas del funnel.
+* Continuar realizando experimentos controlados antes de implementar cambios permanentes.
+* Monitorear continuamente los indicadores de rentabilidad y conversión para apoyar la toma de decisiones.
+
+---
+
+## 📚 Competencias demostradas
+
+* Limpieza y preparación de datos.
+* Análisis exploratorio de datos (EDA).
+* Visualización de datos.
+* Análisis de negocio.
+* Construcción e interpretación de funnels.
+* Análisis de cohortes y retención.
+* Estadística inferencial.
+* Pruebas A/B.
+* Comunicación de resultados mediante recomendaciones estratégicas.
+
+---
+
+## 👩‍💻 Autora
+
+**Oriana**
+
+Proyecto Final desarrollado como parte del programa de **TripleTen – Data Analytics**, aplicando técnicas de análisis de datos para apoyar la toma de decisiones de negocio.
