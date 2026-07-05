@@ -1,0 +1,156 @@
+# 🛒 NovaRetail+ - Análisis Exploratorio de Datos (EDA)
+
+## 📋 Descripción
+
+Este proyecto realiza un **Análisis Exploratorio de Datos (EDA)** sobre el comportamiento de los clientes de **NovaRetail+**, una plataforma de comercio electrónico en Latinoamérica.
+
+El objetivo es identificar patrones de comportamiento, relaciones entre variables y factores que puedan ayudar a comprender los hábitos de compra de los clientes y apoyar la toma de decisiones de negocio mediante técnicas de análisis estadístico y visualización de datos.
+
+---
+
+## 🎯 Objetivos
+
+- Explorar la estructura y calidad del conjunto de datos.
+- Limpiar y preparar los datos para el análisis.
+- Analizar variables numéricas, categóricas y binarias.
+- Identificar relaciones entre variables mediante visualizaciones.
+- Calcular diferentes coeficientes de correlación.
+- Interpretar los resultados desde una perspectiva de negocio.
+
+---
+
+## 📁 Estructura del proyecto
+
+```
+NovaRetail.ipynb
+README.md
+```
+
+El notebook está organizado en las siguientes secciones:
+
+1. Carga y exploración del dataset
+2. Preparación y limpieza de datos
+3. Visualización de relaciones
+4. Análisis de correlaciones
+5. Interpretación de resultados
+6. Limitaciones y próximos pasos
+
+---
+
+## 📊 Dataset
+
+El conjunto de datos contiene aproximadamente **15,000 registros** y **12 variables**, entre ellas:
+
+- ID del cliente
+- Edad
+- Ingreso anual
+- Compras por mes
+- Visitas por mes
+- Gasto en publicidad dirigida
+- Tipo de dispositivo
+- Miembro Premium
+- Abandono del servicio
+
+---
+
+## 🛠 Tecnologías utilizadas
+
+- Python 3
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- SciPy
+- Jupyter Notebook
+
+---
+
+## 📈 Análisis realizados
+
+### Limpieza de datos
+
+- Verificación de tipos de datos
+- Tratamiento de valores faltantes
+- Conversión de variables
+- Validación de datos binarios
+
+### Estadística descriptiva
+
+- Distribución de variables
+- Medidas de tendencia central
+- Medidas de dispersión
+
+### Visualizaciones
+
+- Heatmap de correlaciones
+- Scatterplots
+- Distribuciones de variables
+- Análisis exploratorio de categorías
+
+### Correlaciones
+
+Se calcularon distintos coeficientes según el tipo de variables:
+
+- Pearson
+- Spearman
+- Punto-biserial
+- V de Cramér
+
+---
+
+## 📌 Principales objetivos del análisis
+
+- Comprender qué variables están relacionadas con la cantidad de compras.
+- Analizar la influencia del ingreso anual sobre el comportamiento de compra.
+- Evaluar el impacto de las visitas mensuales.
+- Explorar la relación entre el abandono de clientes y otras variables.
+- Obtener evidencia estadística que apoye decisiones de negocio.
+
+---
+
+## 🚀 Cómo ejecutar el proyecto
+
+1. Clonar el repositorio
+
+```bash
+git clone <url-del-repositorio>
+```
+
+2. Instalar las dependencias
+
+```bash
+pip install pandas numpy matplotlib seaborn scipy jupyter
+```
+
+3. Abrir el notebook
+
+```bash
+jupyter notebook NovaRetail.ipynb
+```
+
+---
+
+## 📚 Resultados
+
+El análisis permite:
+
+- Identificar relaciones entre variables relevantes.
+- Detectar patrones de comportamiento de los clientes.
+- Generar evidencia visual y estadística para apoyar estrategias comerciales.
+- Documentar hallazgos y limitaciones del estudio.
+
+---
+
+## 📌 Posibles mejoras
+
+- Implementar modelos de Machine Learning.
+- Segmentar clientes mediante técnicas de clustering.
+- Construir modelos predictivos de abandono (Churn).
+- Crear dashboards interactivos con Power BI o Tableau.
+- Automatizar el análisis para nuevos conjuntos de datos.
+
+---
+
+## 👤 Autor
+
+Proyecto desarrollado como práctica de **Análisis Exploratorio de Datos (EDA)** utilizando Python y Jupyter Notebook.
