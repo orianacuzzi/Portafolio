@@ -1,0 +1,140 @@
+🧪 Experimento A/B – Landing Page Ecommerce
+Validación estadística de hipótesis de negocio para optimizar la tasa de conversión y el valor económico por usuario en una landing page de ecommerce.
+
+📌 Contexto del negocio
+Eres analista de datos en el equipo de marketing digital de una empresa de ecommerce.
+Se ejecutó un experimento A/B en la página de inicio (landing page), comparando dos versiones (A y B) con el objetivo de:
+
+Mejorar la tasa de conversión.
+
+Aumentar el gasto promedio por usuario convertido.
+
+Entender el comportamiento por canal de tráfico y tipo de usuario.
+
+La empresa necesita una decisión basada en datos para definir qué versión de la página implementar.
+
+🎯 Objetivo del proyecto
+Explorar, validar y analizar estadísticamente el experimento A/B para:
+
+Identificar diferencias significativas entre las versiones A y B.
+
+Traducir los resultados en recomendaciones accionables para el negocio.
+
+💡 Preguntas de negocio
+¿Existe una diferencia significativa en el gasto promedio por usuario convertido entre ambas versiones?
+
+¿Qué versión de la página (A o B) genera mayor tasa de conversión?
+
+¿La conversión depende de la fuente de tráfico?
+
+¿El tipo de usuario (nuevo o recurrente) influye en la conversión?
+
+¿Qué hallazgos permiten optimizar la estrategia de marketing y el diseño de la landing page?
+
+🎯 Aprendizajes esperados
+Al finalizar este proyecto, podrás:
+
+Explorar y validar un dataset de un experimento A/B real.
+
+Comparar métricas de negocio mediante pruebas estadísticas apropiadas.
+
+Interpretar resultados estadísticos desde una perspectiva de negocio.
+
+Visualizar resultados para respaldar conclusiones.
+
+Comunicar insights de forma clara a stakeholders no técnicos.
+
+landing define los grupos del experimento:
+
+A: versión de control.
+
+B: versión de prueba.
+
+converted es la variable objetivo:
+
+1 → El usuario realizó una compra.
+
+0 → El usuario no convirtió.
+
+gasto solo tiene valores > 0 cuando converted = 1.
+
+Las variables region, traffic_source y user_type permiten análisis por segmentos.
+
+El experimento está balanceado entre A y B.
+
+🔄 Flujo del análisis
+Cargar y validar datos
+
+Revisión de calidad y consistencia del experimento.
+
+Comparar gasto promedio (A vs. B)
+
+Identificar qué página genera más valor por usuario convertido.
+
+Comparar tasa de conversión (A vs. B)
+
+Identificar la página más efectiva.
+
+Analizar tráfico y conversión
+
+Evaluar diferencias por canal (traffic_source).
+
+Analizar tipo de usuario y conversión
+
+Evaluar si hay efectos diferenciales entre nuevos y recurrentes.
+
+Visualización
+
+Gráficos para respaldar conclusiones.
+
+Insight ejecutivo
+
+Recomendación clara para stakeholders.
+
+🛠️ Tecnologías usadas
+Python 3.x
+
+Pandas
+
+NumPy
+
+SciPy (pruebas estadísticas)
+
+Matplotlib / Seaborn (visualización)
+
+Jupyter Notebook
+
+📊 Criterios de evaluación
+Análisis estadístico
+
+Prueba estadística adecuada.
+
+Verificación de supuestos.
+
+Interpretación correcta del valor p (p-value).
+
+Razonamiento analítico
+
+Hipótesis claras.
+
+Coherencia entre pregunta, método y conclusión.
+
+Identificación de limitaciones.
+
+Comunicación de resultados
+
+Explicaciones claras.
+
+Visualizaciones efectivas.
+
+Enfoque en impacto de negocio.
+
+📈 Resultados esperados
+Determinar si existe evidencia estadística para elegir la versión A o B.
+
+Identificar segmentos (canal, tipo de usuario) donde una versión performa mejor.
+
+Generar recomendaciones concretas para optimizar la landing y la estrategia de marketing.
+
+👤 Autor
+Proyecto realizado como parte de un portafolio de análisis de datos, enfocado en experimentación y toma de decisiones basada en datos.
